@@ -2,7 +2,7 @@
 
 ## Overview
 
-This workspace contains `github-zh-cn.user.js`, a standalone userscript that
+This workspace contains `github-zh-cn/github-zh-cn.user.js`, a standalone userscript that
 localizes GitHub and Gist interface text into Simplified Chinese. It runs at
 `document-start` and uses optional userscript-manager APIs for its enable toggle.
 There is currently no package manifest, build pipeline, or automated test suite.
@@ -39,7 +39,7 @@ There is currently no package manifest, build pipeline, or automated test suite.
 
 ## Validation
 
-- When Node.js is available, run `node --check github-zh-cn.user.js` for syntax
+- When Node.js is available, run `node --check github-zh-cn/github-zh-cn.user.js` for syntax
   validation. This does not verify browser behavior.
 - For behavioral changes, load the script in a userscript manager and check the
   affected GitHub or Gist UI, initial load, dynamic updates, and Turbo navigation.
